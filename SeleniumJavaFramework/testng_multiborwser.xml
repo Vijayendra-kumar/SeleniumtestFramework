@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite1" parallel="tests" thread-count="2">
+  <test name="Test1">
+	<parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="test.TestNgMultibrowserDemo"/>
+    </classes>
+  </test> <!-- Test1 -->
+ 
+  <test  name="Test3">
+	<parameter name="browserName" value="edge"/>
+    <classes>
+      <class name="test.TestNgMultibrowserDemo"/>
+    </classes>
+  </test> 
+
+</suite>
