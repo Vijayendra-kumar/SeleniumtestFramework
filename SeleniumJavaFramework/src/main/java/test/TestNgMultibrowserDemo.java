@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -18,7 +19,7 @@ public class TestNgMultibrowserDemo {
 	
 	@BeforeTest
 	@Parameters("browserName")
-	public void setUP(String browserName) {
+	public void setUP(@Optional String browserName) {
 	System.out.println("Brower this time ="+browserName);	
 	if(browserName.equalsIgnoreCase("Chrome")) {
 		//System.setProperty("webdriver.chrome.driver",projectPath+" browser)

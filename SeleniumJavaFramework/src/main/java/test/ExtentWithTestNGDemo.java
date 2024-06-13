@@ -1,12 +1,13 @@
 package test;
 
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ExtentWithTestNGDemo {
@@ -14,7 +15,7 @@ public class ExtentWithTestNGDemo {
 	ExtentSparkReporter htmlrept;
 	ExtentReports extent;
 
-	@BeforeSuite
+	@BeforeTest
 	public void setUp() {
 
 		htmlrept = new ExtentSparkReporter("extentSparkRept.html");
@@ -45,7 +46,7 @@ public class ExtentWithTestNGDemo {
 
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void tearDown() {
 		extent.flush();
 	}

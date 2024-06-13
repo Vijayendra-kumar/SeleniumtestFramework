@@ -1,9 +1,0 @@
-[INFO ] 2024-06-06 15:37:49.084 [main] Log4jTest - Info test
-[WARN ] 2024-06-06 15:37:49.087 [main] Log4jTest - warn test
-[ERROR] 2024-06-06 15:37:49.087 [main] Log4jTest - warn test
-[INFO ] 2024-06-06 15:39:27.887 [main] Log4jTest - Info test
-[WARN ] 2024-06-06 15:39:27.891 [main] Log4jTest - warn test
-[ERROR] 2024-06-06 15:39:27.891 [main] Log4jTest - warn test
-[INFO ] 2024-06-06 15:41:13.795 [main] Log4jTest - Info test
-[WARN ] 2024-06-06 15:41:13.798 [main] Log4jTest - warn test
-[ERROR] 2024-06-06 15:41:13.799 [main] Log4jTest - warn test

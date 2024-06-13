@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parent Suite">
+    <suite-files>
+        <suite-file path="testng_group.xml" />
+        <suite-file path="testng.xml" />
+        <suite-file path="testng_multiborwser.xml" />
+        <!-- Add more suite-file elements for additional TestNG XML files -->
+    </suite-files>
+</suite>
