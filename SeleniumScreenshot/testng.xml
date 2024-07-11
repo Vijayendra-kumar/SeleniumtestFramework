@@ -2,7 +2,9 @@
 <suite name="Suite1">
   <test thread-count="5" name="Test1">
     <classes>
-      <class name="test.SeleniumTest"/>
+      <class name="tests.SeleniumTest"/>
+      <class name="tests.ExtentReportsExample"/>
+       <class name="tests.EssLoginTest"/>
     </classes>
   </test> <!-- Test1 -->
 </suite> <!-- Suite1 -->

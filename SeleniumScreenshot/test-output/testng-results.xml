@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-24T17:18:33 IST" name="Default suite" finished-at="2024-06-24T17:18:42 IST" duration-ms="8965">
+  <suite started-at="2024-07-05T10:10:35 IST" name="Default suite" finished-at="2024-07-05T10:10:40 IST" duration-ms="5758">
     <groups>
     </groups>
-    <test started-at="2024-06-24T17:18:33 IST" name="Default test" finished-at="2024-06-24T17:18:42 IST" duration-ms="8965">
-      <class name="tests.SeleniumTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SeleniumTest@645aa696]" started-at="2024-06-24T17:18:33 IST" name="setUp" finished-at="2024-06-24T17:18:34 IST" duration-ms="1680" status="PASS">
+    <test started-at="2024-07-05T10:10:35 IST" name="Default test" finished-at="2024-07-05T10:10:40 IST" duration-ms="5758">
+      <class name="tests.FlipkartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlipkartTest@353352b6]" started-at="2024-07-05T10:10:35 IST" name="setUp" finished-at="2024-07-05T10:10:37 IST" duration-ms="2905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGoogleSearch()[pri:0, instance:tests.SeleniumTest@645aa696]" started-at="2024-06-24T17:18:34 IST" name="testGoogleSearch" finished-at="2024-06-24T17:18:41 IST" duration-ms="6866" status="PASS">
+        <test-method signature="testMouseOver()[pri:0, instance:tests.FlipkartTest@353352b6]" started-at="2024-07-05T10:10:37 IST" name="testMouseOver" finished-at="2024-07-05T10:10:40 IST" duration-ms="2809" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SeleniumTest@645aa696]" started-at="2024-06-24T17:18:41 IST" name="tearDown" finished-at="2024-06-24T17:18:42 IST" duration-ms="388" status="PASS">
+        </test-method> <!-- testMouseOver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartTest@353352b6]" started-at="2024-07-05T10:10:40 IST" name="tearDown" finished-at="2024-07-05T10:10:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.SeleniumTest -->
+      </class> <!-- tests.FlipkartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
